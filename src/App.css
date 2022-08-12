@@ -1,0 +1,413 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.bg-navbar {
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+.nav-brand-text {
+  padding-left: 16px;
+  margin-bottom: 5px;
+}
+
+.nav-link {
+  font-size: 24px;
+  text-align: center;
+  color: #548855 !important;
+}
+
+.nav.navbar-text {
+  color: #548855;
+}
+
+/* Desktop only */
+@media all and (min-width: 768px) {
+  .nav-link svg {
+    margin-left: 16px;
+    color: #548855;
+    position: sticky;
+  }
+
+  div .navAccount {
+    margin-left: 16px;
+    height: 100%;
+    border-left: #548855 solid 1px;
+  }
+}
+
+/* Mobile only */
+
+@media all and (max-width: 768px) {
+  .navbar-dark .navbar-toggler {
+    border: none;
+    margin: 8px;
+    background-color: #28a7453d;
+    position: sticky;
+  }
+
+  .nav-link {
+    line-height: 2;
+  }
+}
+
+.searchbar-background {
+  background-color: #313e50;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.searchbar-element {
+  font-size: 20pt;
+  border-radius: 4px;
+  vertical-align: middle;
+  height: 48px;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.searchbar-element.dropdown {
+  width: 100%;
+}
+
+.AllFiltersButton {
+  width: 100%;
+}
+
+.searchbar-textbox {
+  width: 100%;
+  align-self: flex-start !important;
+}
+
+.searchbar-radius-toggle {
+  background-color: white !important;
+  color: #313e50 !important;
+  font-weight: bold !important;
+  width: 100%;
+  height: 48px;
+}
+
+.searchbar-radius-distance {
+  color: #27bbf5;
+  text-indent: 8px;
+  font-weight: bolder;
+  font-size: 25pt;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchbar-radius-kmlabel {
+  align-self: flex-end;
+}
+
+.sortBar-div {
+  margin-top: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 200px;
+  background-color: #0c9deb;
+}
+
+.sortBar-button {
+  background-color: white;
+  color: #0c9deb;
+  border-width: 0px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-indent: 16px;
+  font-size: 12pt;
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  justify-content: center;
+  align-content: center;
+}
+
+.sortBar-button p {
+  margin-bottom: 0;
+}
+
+.sortBar-button-selected {
+  background-color: #3a435e !important;
+  color: white !important;
+}
+
+.sortBar-sort {
+  background-color: white !important;
+  color: #313e50 !important;
+  font-weight: bold !important;
+  width: 100%;
+  height: 42px;
+}
+
+.sortBar-dropDown {
+  margin-left: 16px;
+  margin-right: 16px;
+  position: sticky !important;
+  right: 0px !important;
+  z-index: 6;
+}
+
+.sortBar-dropDown dvi {
+  width: 100%;
+}
+
+.sortBar-saveSearchButton {
+  color: black;
+  font-weight: bold;
+  text-indent: 1px;
+  margin-left: 0;
+  padding: 8px;
+}
+
+.AllFiltersMenuBackground {
+  background-color: #f1f6f8;
+  position: fixed;
+  display: block;
+  max-width: 90%;
+  min-width: 80%;
+  left: 0px !important;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 75px;
+  border-radius: 10px;
+  z-index: 5;
+}
+
+.AllFiltersMenuContainer {
+  border-width: 0px;
+  border-style: none;
+  user-select: none;
+}
+
+.AllFiltersMenuFilterGroup {
+  margin-top: 20px;
+}
+
+.AllFiltersMenuFilterGroupTitle {
+  color: #27bbf5;
+}
+
+.AllFiltersMenuPropertyTypeDiv {
+  margin-left: 10px;
+}
+
+.AllFiltersMenuFilterGroupAltTitle {
+  color: white;
+}
+
+.AllFiltersMenuFilterComponentLabel {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.AllFiltersMenuFilterComponenToggle {
+  margin-left: 25px;
+  margin-top: 8px;
+}
+
+.AllFiltersMenuFilterNumerical {
+  width: 120px !important;
+  border: #27bbf5;
+  border-radius: 2px;
+  border-width: 2px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.AllFiltersMenuFilterPoundSign {
+  color: #27bbf5;
+  font-weight: bold;
+  margin-right: 0px;
+  margin-top: 15px;
+}
+
+.AllFiltersMenuPropertyLogo {
+  width: 80px;
+  margin: 10px;
+}
+
+.AllFiltersMenuPropertyTypeUnSelected {
+  margin: 10px;
+  background-color: white;
+}
+
+.AllFiltersMenuPropertyTypeUnSelected:hover {
+  margin: 10px;
+  background-color: rgb(139, 149, 184);
+}
+
+.AllFiltersMenuPropertyTypeSelected {
+  background-color: #358fc0;
+  margin: 10px;
+}
+
+.AllFiltersMenuPropertyTypeSelected:hover {
+  background-color: #1d5777;
+  margin: 10px;
+}
+
+.ListViewPropertyCardBackground {
+  margin: 20px;
+  background-color: white;
+  border-color: #27bbf5;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  max-width: 350px !important;
+  height: unset !important;
+  margin-bottom: 16px !important;
+}
+
+.ListViewPropertyCardBackground:hover {
+  background-color: rgba(147, 212, 231, 0.3);
+}
+
+.ListViewAllBackground {
+  margin: 32px;
+}
+
+.ListViewPropertyAddressLabel {
+  padding: 16px;
+  color: #27bbf5;
+  font-weight: 400;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.ListViewPropertyPhoto {
+  width: 100%;
+  align-self: flex-start;
+  max-height: 300px;
+}
+
+.ListViewPriceLabel {
+  padding: 16px;
+  padding-bottom: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.ListViewPropertyInformationText p {
+  width: 100%;
+  text-align: right;
+  padding: 0;
+  padding-right: 16px;
+  margin-bottom: 0;
+}
+
+.SortBarIconImage {
+  margin: 5px;
+  min-width: 32px;
+  min-height: 16px;
+}
+
+@media all and (max-width: 768px) {
+  .navbar-dark .navbar-toggler {
+    border: none;
+    position: sticky;
+  }
+
+  .nav-link {
+    line-height: 2;
+  }
+
+  .medium-plus {
+    display: none;
+  }
+}
+
+.floatRight {
+  float: right;
+  margin-top: 20px;
+}
+
+.mapViewBorder {
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 32px;
+}
+
+.mapViewDescriptionText {
+  margin-left: 16px;
+  margin-bottom: 48px;
+  color: #0c9deb;
+  font-weight: 500;
+}
+
+.savedSearchesRow {
+  margin: 32px;
+  border: #1d5777;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 8px;
+  border-style: groove;
+}
+
+.savedSearchesOpenSearchButton {
+  margin-left: 24px;
+  margin-right: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #0c9deb;
+  color: white;
+  border-width: 0px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12pt;
+  padding: 12px;
+  float: right;
+}
+
+.savedSearchesRemoveSearchButton {
+  margin-left: 24px;
+  margin-right: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: red;
+  color: white;
+  border-width: 0px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12pt;
+  padding: 12px;
+}
+
+.AllFiltersMenuGoToAdvancedSearchButton {
+  margin-left: 24px;
+  margin-right: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #0c9deb;
+  color: white;
+  border-width: 0px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12pt;
+  padding: 12px;
+  float: right;
+}
+
+.savedProperties {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80vw;
+}
+
+.savedProperties div:not(.PropertyHighlights div) {
+  flex-shrink: 0;
+}
+
+.savedPropertiesTitle {
+  padding: 32px;
+  word-break: break-word;
+  color: #0c9deb;
+}

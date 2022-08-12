@@ -1,0 +1,154 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.card-login {
+  margin-top: 90px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  border-radius: 15px;
+}
+
+.card-register {
+  margin-top: 90px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  border-radius: 15px;
+}
+
+.background-login {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url("../../Media/runnerLoginIn.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: right -430px top 69px;
+}
+
+.loginBody {
+  padding: 25px;
+}
+
+.registerBody {
+  padding: 25px;
+}
+
+.login-email,
+.login-password {
+  padding: 5px;
+}
+
+.reg-username {
+  padding-top: 5px;
+}
+
+.reg-email,
+.reg-password {
+  padding-top: 15px;
+}
+
+.remember-me {
+  padding: 5px;
+  padding-left: 25px;
+}
+
+.reg-terms {
+  padding: 5px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+
+.text-footer {
+  color: #5c5d63;
+  font-size: 12px;
+}
+
+label {
+  font-size: 14px;
+}
+
+:placeholder-shown {
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.subText {
+  color: #548855;
+  font-size: 14px;
+  text-align: center;
+}
+
+.logTitle,
+.regTitle {
+  font-size: 22px;
+  color: #548855;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+a {
+  color: #548855;
+}
+
+b {
+  color: #548855;
+  cursor: pointer;
+}
+
+.buttonLogin {
+  padding-top: 10px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonRegister {
+  padding-top: 0px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnLogin {
+  background-color: #a2dac4 !important;
+  color: #fff;
+  height: 55px;
+  width: 90%;
+  border-radius: 8px;
+  border-width: 0px;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btnRegister {
+  background-color: #a2dac4 !important;
+  color: #fff;
+  height: 55px;
+  width: 90%;
+  border-radius: 8px;
+  border-width: 0px;
+  font-size: 18px;
+}

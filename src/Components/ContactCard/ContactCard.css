@@ -1,0 +1,92 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.background-contactUs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url("../../Media/runnerLoginIn.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: right -430px top 69px;
+}
+
+.card-contactUs {
+  margin-top: 90px;
+  margin-left: 18px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  border-radius: 15px;
+}
+
+.con-Body {
+  padding: 25px;
+}
+
+.con-fullName {
+  padding-top: 5px;
+}
+
+.con-email,
+.con-message {
+  padding-top: 15px;
+}
+
+.text-footer {
+  color: #5c5d63;
+  font-size: 12px;
+}
+
+label {
+  font-size: 14px;
+}
+
+:placeholder-shown {
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.subText {
+  color: #548855;
+  font-size: 14px;
+  text-align: center;
+}
+
+.con-Title {
+  font-size: 22px;
+  color: #548855;
+  text-align: center;
+}
+
+.buttonSubmit {
+  padding-top: 15px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+  font-size: 15px;
+}
+
+.btnSubmit {
+  background-color: #a2dac4 !important;
+  color: #fff;
+  height: 55px;
+  width: 90%;
+  border-radius: 8px;
+  border-width: 0px;
+  font-size: 18px;
+}

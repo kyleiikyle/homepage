@@ -1,0 +1,348 @@
+h1.title {
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 0px;
+  padding-top: 48px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #548855;
+}
+
+h2.subtitle {
+  font-size: 28px;
+  line-height: 43px;
+  margin: 0px;
+  padding-top: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  color: rgb(90, 90, 90);
+}
+
+h3.smalltitle {
+  font-size: 28px;
+  line-height: 43px;
+  margin: 0px;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: rgb(90, 90, 90);
+}
+
+p.leftAlign {
+  float: left;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 8%;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+.left {
+  left: 0;
+  background-color: #ffffff;
+}
+
+.right {
+  right: 0;
+  background-color: #ffffff;
+}
+
+.centered {
+  margin-top: 10px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 90%;
+  border-radius: 20%;
+  padding-top: 0%;
+}
+
+.fullscreen {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fullscreen img {
+  width: 50%;
+  border-radius: 25%;
+}
+
+.iconbtn img {
+  float: left;
+  width: 32px;
+  border-radius: 20%;
+}
+
+.loginActive {
+  background-color: #548855;
+  color: white;
+  padding: 16px 10px;
+  margin: 8px 20px 8px 20px;
+  display: inline-block;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 4px;
+}
+
+.buttonSecondary {
+  background-color: #ffffff;
+  padding: 16px 10px;
+  margin: 8px 20px;
+  border: 2px solid #548855;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 4px;
+}
+
+.centerbutton {
+  background-color: #358fc0;
+  color: white;
+  padding: 16px 10px;
+  margin: 8px 20px;
+  border: 2px solid #358fc0;
+  cursor: pointer;
+  width: auto;
+  border-radius: 4px;
+}
+
+.AccountButton {
+  background-color: white;
+  border: 2px solid #c1bbbb;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.AccountButton svg {
+  margin-right: 16px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 12px;
+}
+
+div .accContainer {
+  width: 100%;
+  padding: 32px;
+}
+
+.logincontainer {
+  width: 100%;
+  padding: 2% 10% 5% 0%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+span.checkbox {
+  float: left;
+}
+
+span.SUcheckbox {
+  float: center;
+}
+
+span.pass {
+  float: right;
+}
+
+.Button {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.Button svg {
+  float: left;
+  margin-right: 20px;
+}
+
+.content {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 28px;
+  width: 80%;
+  text-align: center;
+}
+
+/* Change styles for span on midsized */
+@media screen and (max-width: 1000px) {
+  .centered {
+    margin-top: 1%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  span.pass {
+    display: block;
+    float: center;
+    padding-bottom: 4%;
+  }
+
+  span.checkbox {
+    display: block;
+    float: center;
+  }
+
+  .split.right {
+    display: none;
+  }
+
+  .split {
+    width: 100%;
+  }
+
+  .loginActive {
+    background-color: #548855;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    margin-left: 0%;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 4px;
+    align-items: center;
+  }
+
+  .buttonSecondary {
+    background-color: #ffffff;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 10px;
+    border: 2px solid #548855;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 4px;
+    align-items: center;
+  }
+
+  .Button {
+    align-items: center;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* Change styles for span on extra small screens */
+@media screen and (max-width: 760px) {
+  span.pass {
+    display: block;
+    float: none;
+    margin-top: 2%;
+  }
+
+  span.checkbox {
+    margin-top: 5%;
+    display: block;
+    float: none;
+  }
+
+  .split.right {
+    display: none;
+  }
+
+  .split {
+    width: 100%;
+  }
+
+  .loginActive {
+    background-color: #548855;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-left: 0%;
+    margin-right: 0%;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    float: center;
+  }
+
+  .buttonSecondary {
+    background-color: #ffffff;
+    padding: 16px 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+    border: 2px solid #548855;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    float: center;
+  }
+
+  .centered {
+    margin-top: 50px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .centered img {
+    width: 50%;
+    border-radius: 25%;
+  }
+
+  .logincontainer {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+  }
+
+  .Button {
+    align-items: center;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .content {
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 90%;
+    text-align: center;
+  }
+}
